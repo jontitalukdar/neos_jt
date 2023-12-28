@@ -1,3 +1,5 @@
+Available in jonti_share directory
+
 # ** Netlist encryption and obfuscation suite ** #
 
 * This project is an object-oriented framework written in modern C++ for gate-level netlist obfuscation/deobfuscation. The tool contains a set of obfuscation and deobfuscation utilities and can be used through the command line. For now we have an available binary tested on ubuntu16 and centos7. Please send problems (error-cases) to me (Kaveh Shamsi).
@@ -245,8 +247,7 @@ neos_error: usage : neos -d [mcdec method] <orig file> <enc file> [attack_specif
        ic3 : use internal ic3 solver.
   Options: 
        --use_aig : use AIGs instead of circuit when applicable (int)
-       --kc_sweep_iterative: 			0: apply kc-sweep to entire kc_ckt only
-			1: apply kc_sweep to new DIS every step
+       --kc_sweep_iterative: 			0: apply kc-sweep to entire kc_ckt only       1: apply kc_sweep to new DIS every step
        --kc_sweep: key-condition simplification every --kc_sweep_period number of DISs
            0: no key-condition sweeping (default)
            1: use key-circuit but not simplify

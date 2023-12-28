@@ -1,0 +1,7 @@
+# BENCH FILE 
+# circuit:
+
+OUTPUT(n4)
+iocOut_001 = buf( gnd )
+iocOut_000 = buf( gnd )
+n4 = and( iocOut_000, iocOut_001 )

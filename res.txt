@@ -1,0 +1,6 @@
+frame: 92  stats -> variables: 32000 clauses: 90597 assignments: 5407  propagations: 435580302
+64.391326
+
+Encrypted 2
+frame: 34  stats -> variables: 77330 clauses: 190983 assignments: 34690  propagations: 19076647800
+

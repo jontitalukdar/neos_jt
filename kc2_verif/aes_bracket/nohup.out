@@ -1,0 +1,134 @@
+enc-ckt has DFFs. running sequnetial attack...
+dec method is: int
+couldn't create one-to-one latch mapping between sim circuit and enc circuit. Combinational equivalencecannot be checked with SAT
+vebrosity: 0
+key-condition sweeping mode: 2
+BMC sweeping mode: 0
+AIG mode : 0
+Relative to kckt SAT-sweeping: 0
+with propagation limit: -1
+with mitter sweep: 0
+BDD analysis option: 0
+KC BDD size limit: 0
+BMC bound limit: 600
+frame: 0  stats -> variables: 866090 clauses: 2214935 assignments: 0  propagations: 0
+no trace up to bound 1
+adding termination links
+frame: 1  stats -> variables: 1709172 clauses: 4429870 assignments: 0  propagations: 37060195
+no trace up to bound 2
+increasing bmc bound to 3
+termination checking up to round: 1. current BMC checked bound: 1
+frame: 2  stats -> variables: 2552253 clauses: 6621931 assignments: 0  propagations: 362198708
+no trace up to bound 3
+increasing bmc bound to 4
+termination checking up to round: 2. current BMC checked bound: 2
+frame: 3  stats -> variables: 3395334 clauses: 8813992 assignments: 0  propagations: 889008333
+no trace up to bound 4
+increasing bmc bound to 5
+termination checking up to round: 3. current BMC checked bound: 3
+frame: 4  stats -> variables: 4238415 clauses: 11006053 assignments: 0  propagations: 2251616078
+no trace up to bound 5
+increasing bmc bound to 6
+termination checking up to round: 3. current BMC checked bound: 4
+
+interrupted
+exiting with last key
+
+sat_time:  0.000000
+term_time: 444.760710
+gen_time:  0.000000
+bmc_time:  81.889991
+simp_time: 0.000000
+total_time: 0.000000
+
+dis_count: 0
+dis_maxlen: 0
+
+
+neos_error: key lentgh does not match encrypted circuit key-length of 67
+
+enc-ckt has DFFs. running sequnetial attack...
+dec method is: int
+couldn't create one-to-one latch mapping between sim circuit and enc circuit. Combinational equivalencecannot be checked with SAT
+vebrosity: 0
+key-condition sweeping mode: 2
+BMC sweeping mode: 0
+AIG mode : 0
+Relative to kckt SAT-sweeping: 0
+with propagation limit: -1
+with mitter sweep: 0
+BDD analysis option: 0
+KC BDD size limit: 0
+BMC bound limit: 600
+frame: 0  stats -> variables: 866090 clauses: 2214935 assignments: 0  propagations: 0
+no trace up to bound 1
+adding termination links
+frame: 1  stats -> variables: 1709172 clauses: 4429870 assignments: 0  propagations: 38509305
+no trace up to bound 2
+increasing bmc bound to 3
+termination checking up to round: 1. current BMC checked bound: 1
+frame: 2  stats -> variables: 2552253 clauses: 6621931 assignments: 0  propagations: 276976796
+no trace up to bound 3
+increasing bmc bound to 4
+termination checking up to round: 2. current BMC checked bound: 2
+frame: 3  stats -> variables: 3395334 clauses: 8813992 assignments: 0  propagations: 786907954
+no trace up to bound 4
+increasing bmc bound to 5
+termination checking up to round: 3. current BMC checked bound: 3
+frame: 4  stats -> variables: 4238415 clauses: 11006053 assignments: 0  propagations: 1812794124
+no trace up to bound 5
+increasing bmc bound to 6
+termination checking up to round: 3. current BMC checked bound: 4
+frame: 5  stats -> variables: 5081496 clauses: 13198114 assignments: 0  propagations: 3679154482
+no trace up to bound 6
+increasing bmc bound to 7
+termination checking up to round: 3. current BMC checked bound: 5
+frame: 6  stats -> variables: 5924577 clauses: 15390175 assignments: 0  propagations: 7233873452
+no trace up to bound 7
+increasing bmc bound to 8
+termination checking up to round: 3. current BMC checked bound: 6
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+frame: 7  stats -> variables: 6767658 clauses: 17582236 assignments: 0  propagations: 9473773310
+no trace up to bound 8
+increasing bmc bound to 9
+termination checking up to round: 3. current BMC checked bound: 7
+frame: 8  stats -> variables: 7610739 clauses: 19774297 assignments: 22  propagations: 16018218086
+no trace up to bound 9
+increasing bmc bound to 10
+termination checking up to round: 3. current BMC checked bound: 8
+frame: 9  stats -> variables: 8453820 clauses: 21966358 assignments: 22  propagations: 19726663873
+no trace up to bound 10
+increasing bmc bound to 11
+termination checking up to round: 3. current BMC checked bound: 9
+frame: 10  stats -> variables: 9296901 clauses: 24158419 assignments: 35  propagations: 24496340325
+no trace up to bound 11
+increasing bmc bound to 12
+termination checking up to round: 3. current BMC checked bound: 10
+frame: 11  stats -> variables: 10139982 clauses: 26350480 assignments: 39  propagations: 34518731107
+no trace up to bound 12
+increasing bmc bound to 13
+termination checking up to round: 3. current BMC checked bound: 11
+frame: 12  stats -> variables: 10983063 clauses: 28542541 assignments: 80  propagations: 171522709453
+no trace up to bound 13
+increasing bmc bound to 14
+termination checking up to round: 3. current BMC checked bound: 12
+frame: 13  stats -> variables: 11826144 clauses: 30734602 assignments: 104  propagations: 226520756216
+no trace up to bound 14
+increasing bmc bound to 15
+termination checking up to round: 3. current BMC checked bound: 13
+frame: 14  stats -> variables: 12669225 clauses: 32926663 assignments: 118  propagations: 311797206613
+no trace up to bound 15
+increasing bmc bound to 16
+termination checking up to round: 3. current BMC checked bound: 14
+frame: 15  stats -> variables: 13512306 clauses: 35118724 assignments: 149  propagations: 452168173854
+no trace up to bound 16
+increasing bmc bound to 17
+termination checking up to round: 3. current BMC checked bound: 15
+frame: 16  stats -> variables: 14355387 clauses: 37310785 assignments: 153  propagations: 564404422183
+no trace up to bound 17
+increasing bmc bound to 18
+termination checking up to round: 3. curren

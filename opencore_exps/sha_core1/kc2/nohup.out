@@ -1,0 +1,449 @@
+enc-ckt has DFFs. running sequnetial attack...
+dec method is: int
+vebrosity: 0
+key-condition sweeping mode: 2
+BMC sweeping mode: 0
+AIG mode : 0
+Relative to kckt SAT-sweeping: 0
+with propagation limit: -1
+with mitter sweep: 0
+BDD analysis option: 0
+KC BDD size limit: 0
+BMC bound limit: 600
+frame: 0  stats -> variables: 38010 clauses: 95805 assignments: 0  propagations: 0
+no trace up to bound 1
+adding termination links
+frame: 1  stats -> variables: 73624 clauses: 191610 assignments: 0  propagations: 243359
+DIS iter: 0
+  DIP clk_0 -> 00000100100000000000000000000000000000  000000000000000000000000000000000000
+  DIP clk_1 -> 00011000000000000000000000000000000000  000100000000000000000000000000000000
+extending to 2
+depth[2]: key-condition circuit num gates: 79
+  dis: 1 stats -> variables: 73704 clauses: 191801 assignments: 68  propagations: 325765
+DIS iter: 1
+  DIP clk_0 -> 00100000100000000000000000000000000000  000000000000000000000000000000000000
+  DIP clk_1 -> 01111000000000000000000000000000000000  000000000000000000000000000000000000
+depth[2]: key-condition circuit num gates: 159
+  dis: 2 stats -> variables: 73783 clauses: 191992 assignments: 123  propagations: 768716
+no trace up to bound 2
+increasing bmc bound to 3
+termination checking up to round: 1. current BMC checked bound: 1
+frame: 2  stats -> variables: 109396 clauses: 285553 assignments: 163  propagations: 18140524
+no trace up to bound 3
+increasing bmc bound to 4
+termination checking up to round: 2. current BMC checked bound: 2
+frame: 3  stats -> variables: 145009 clauses: 379114 assignments: 175  propagations: 22568736
+no trace up to bound 4
+increasing bmc bound to 5
+termination checking up to round: 3. current BMC checked bound: 3
+frame: 4  stats -> variables: 180622 clauses: 472403 assignments: 5386  propagations: 70229259
+no trace up to bound 5
+increasing bmc bound to 6
+termination checking up to round: 3. current BMC checked bound: 4
+frame: 5  stats -> variables: 216235 clauses: 565964 assignments: 5392  propagations: 77273054
+no trace up to bound 6
+increasing bmc bound to 7
+termination checking up to round: 3. current BMC checked bound: 5
+frame: 6  stats -> variables: 251848 clauses: 659525 assignments: 5396  propagations: 79896318
+no trace up to bound 7
+increasing bmc bound to 8
+termination checking up to round: 3. current BMC checked bound: 6
+frame: 7  stats -> variables: 287461 clauses: 753086 assignments: 9053  propagations: 90372770
+no trace up to bound 8
+increasing bmc bound to 9
+termination checking up to round: 3. current BMC checked bound: 7
+frame: 8  stats -> variables: 323074 clauses: 846647 assignments: 9067  propagations: 114950073
+no trace up to bound 9
+increasing bmc bound to 10
+termination checking up to round: 3. current BMC checked bound: 8
+frame: 9  stats -> variables: 358687 clauses: 940208 assignments: 9181  propagations: 148668322
+no trace up to bound 10
+increasing bmc bound to 11
+termination checking up to round: 3. current BMC checked bound: 9
+frame: 10  stats -> variables: 394300 clauses: 1033769 assignments: 9189  propagations: 177959733
+no trace up to bound 11
+increasing bmc bound to 12
+termination checking up to round: 3. current BMC checked bound: 10
+frame: 11  stats -> variables: 429913 clauses: 1127330 assignments: 9848  propagations: 202204508
+no trace up to bound 12
+increasing bmc bound to 13
+termination checking up to round: 3. current BMC checked bound: 11
+frame: 12  stats -> variables: 465526 clauses: 1220891 assignments: 9859  propagations: 213187418
+no trace up to bound 13
+increasing bmc bound to 14
+termination checking up to round: 3. current BMC checked bound: 12
+frame: 13  stats -> variables: 501139 clauses: 1314452 assignments: 9946  propagations: 321372078
+no trace up to bound 14
+increasing bmc bound to 15
+termination checking up to round: 3. current BMC checked bound: 13
+frame: 14  stats -> variables: 536752 clauses: 1408013 assignments: 10357  propagations: 382781972
+no trace up to bound 15
+increasing bmc bound to 16
+termination checking up to round: 3. current BMC checked bound: 14
+frame: 15  stats -> variables: 572365 clauses: 1501574 assignments: 10368  propagations: 394441054
+no trace up to bound 16
+increasing bmc bound to 17
+termination checking up to round: 3. current BMC checked bound: 15
+frame: 16  stats -> variables: 607978 clauses: 1595135 assignments: 10701  propagations: 425289514
+no trace up to bound 17
+increasing bmc bound to 18
+termination checking up to round: 3. current BMC checked bound: 16
+frame: 17  stats -> variables: 643591 clauses: 1688696 assignments: 10717  propagations: 440275867
+no trace up to bound 18
+increasing bmc bound to 19
+termination checking up to round: 3. current BMC checked bound: 17
+frame: 18  stats -> variables: 679204 clauses: 1782257 assignments: 10807  propagations: 460254661
+no trace up to bound 19
+increasing bmc bound to 20
+termination checking up to round: 3. current BMC checked bound: 18
+frame: 19  stats -> variables: 714817 clauses: 1875818 assignments: 11465  propagations: 535795997
+no trace up to bound 20
+increasing bmc bound to 21
+termination checking up to round: 3. current BMC checked bound: 19
+frame: 20  stats -> variables: 750430 clauses: 1969379 assignments: 11476  propagations: 553292754
+no trace up to bound 21
+increasing bmc bound to 22
+termination checking up to round: 3. current BMC checked bound: 20
+frame: 21  stats -> variables: 786043 clauses: 2062940 assignments: 11565  propagations: 659828423
+no trace up to bound 22
+increasing bmc bound to 23
+termination checking up to round: 3. current BMC checked bound: 21
+frame: 22  stats -> variables: 821656 clauses: 2156501 assignments: 11833  propagations: 808659005
+no trace up to bound 23
+increasing bmc bound to 24
+termination checking up to round: 3. current BMC checked bound: 22
+frame: 23  stats -> variables: 857269 clauses: 2250062 assignments: 12169  propagations: 1017295392
+no trace up to bound 24
+increasing bmc bound to 25
+termination checking up to round: 3. current BMC checked bound: 23
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+frame: 24  stats -> variables: 892882 clauses: 2343623 assignments: 12177  propagations: 1148387518
+no trace up to bound 25
+increasing bmc bound to 26
+termination checking up to round: 3. current BMC checked bound: 24
+frame: 25  stats -> variables: 928495 clauses: 2437184 assignments: 13325  propagations: 1178597665
+no trace up to bound 26
+increasing bmc bound to 27
+termination checking up to round: 3. current BMC checked bound: 25
+frame: 26  stats -> variables: 964108 clauses: 2530745 assignments: 13335  propagations: 1228508926
+no trace up to bound 27
+increasing bmc bound to 28
+termination checking up to round: 3. current BMC checked bound: 26
+frame: 27  stats -> variables: 999721 clauses: 2624306 assignments: 13345  propagations: 1274425150
+no trace up to bound 28
+increasing bmc bound to 29
+termination checking up to round: 3. current BMC checked bound: 27
+frame: 28  stats -> variables: 1035334 clauses: 2717867 assignments: 13540  propagations: 1452055946
+no trace up to bound 29
+increasing bmc bound to 30
+termination checking up to round: 3. current BMC checked bound: 28
+frame: 29  stats -> variables: 1070947 clauses: 2811428 assignments: 13550  propagations: 1477630679
+no trace up to bound 30
+increasing bmc bound to 31
+termination checking up to round: 3. current BMC checked bound: 29
+frame: 30  stats -> variables: 1106560 clauses: 2904989 assignments: 13972  propagations: 1885684045
+no trace up to bound 31
+increasing bmc bound to 32
+termination checking up to round: 3. current BMC checked bound: 30
+frame: 31  stats -> variables: 1142173 clauses: 2998550 assignments: 14390  propagations: 1975665965
+no trace up to bound 32
+increasing bmc bound to 33
+termination checking up to round: 3. current BMC checked bound: 31
+frame: 32  stats -> variables: 1177786 clauses: 3092111 assignments: 14420  propagations: 2023537009
+no trace up to bound 33
+increasing bmc bound to 34
+termination checking up to round: 3. current BMC checked bound: 32
+frame: 33  stats -> variables: 1213399 clauses: 3185672 assignments: 14432  propagations: 2051805711
+no trace up to bound 34
+increasing bmc bound to 35
+termination checking up to round: 3. current BMC checked bound: 33
+frame: 34  stats -> variables: 1249012 clauses: 3279233 assignments: 18495  propagations: 2169091399
+no trace up to bound 35
+increasing bmc bound to 36
+termination checking up to round: 3. current BMC checked bound: 34
+frame: 35  stats -> variables: 1284625 clauses: 3372794 assignments: 22562  propagations: 2295487904
+no trace up to bound 36
+increasing bmc bound to 37
+termination checking up to round: 3. current BMC checked bound: 35
+frame: 36  stats -> variables: 1320238 clauses: 3466355 assignments: 22983  propagations: 2427435110
+no trace up to bound 37
+increasing bmc bound to 38
+termination checking up to round: 3. current BMC checked bound: 36
+frame: 37  stats -> variables: 1355851 clauses: 3559916 assignments: 23642  propagations: 2514211715
+no trace up to bound 38
+increasing bmc bound to 39
+termination checking up to round: 3. current BMC checked bound: 37
+frame: 38  stats -> variables: 1391464 clauses: 3653477 assignments: 23817  propagations: 2642689873
+no trace up to bound 39
+increasing bmc bound to 40
+termination checking up to round: 3. current BMC checked bound: 38
+frame: 39  stats -> variables: 1427077 clauses: 3747038 assignments: 23902  propagations: 2735501860
+no trace up to bound 40
+increasing bmc bound to 41
+termination checking up to round: 3. current BMC checked bound: 39
+frame: 40  stats -> variables: 1462690 clauses: 3840599 assignments: 25419  propagations: 2805537547
+no trace up to bound 41
+increasing bmc bound to 42
+termination checking up to round: 3. current BMC checked bound: 40
+frame: 41  stats -> variables: 1498303 clauses: 3934160 assignments: 27215  propagations: 3449681350
+no trace up to bound 42
+increasing bmc bound to 43
+termination checking up to round: 3. current BMC checked bound: 41
+frame: 42  stats -> variables: 1533916 clauses: 4027721 assignments: 28034  propagations: 3624833411
+no trace up to bound 43
+increasing bmc bound to 44
+termination checking up to round: 3. current BMC checked bound: 42
+frame: 43  stats -> variables: 1569529 clauses: 4121282 assignments: 28367  propagations: 3768791163
+no trace up to bound 44
+increasing bmc bound to 45
+termination checking up to round: 3. current BMC checked bound: 43
+frame: 44  stats -> variables: 1605142 clauses: 4214843 assignments: 28860  propagations: 3925061872
+no trace up to bound 45
+increasing bmc bound to 46
+termination checking up to round: 3. current BMC checked bound: 44
+frame: 45  stats -> variables: 1640755 clauses: 4308404 assignments: 29277  propagations: 4050735799
+no trace up to bound 46
+increasing bmc bound to 47
+termination checking up to round: 3. current BMC checked bound: 45
+frame: 46  stats -> variables: 1676368 clauses: 4401965 assignments: 29610  propagations: 4112660825
+no trace up to bound 47
+increasing bmc bound to 48
+termination checking up to round: 3. current BMC checked bound: 46
+frame: 47  stats -> variables: 1711981 clauses: 4495526 assignments: 29618  propagations: 4251129764
+no trace up to bound 48
+increasing bmc bound to 49
+termination checking up to round: 3. current BMC checked bound: 47
+frame: 48  stats -> variables: 1747594 clauses: 4589087 assignments: 29636  propagations: 4483537756
+no trace up to bound 49
+increasing bmc bound to 50
+termination checking up to round: 3. current BMC checked bound: 48
+frame: 49  stats -> variables: 1783207 clauses: 4682648 assignments: 30863  propagations: 4680703532
+no trace up to bound 50
+increasing bmc bound to 51
+termination checking up to round: 3. current BMC checked bound: 49
+frame: 50  stats -> variables: 1818820 clauses: 4776209 assignments: 31284  propagations: 5331629649
+no trace up to bound 51
+increasing bmc bound to 52
+termination checking up to round: 3. current BMC checked bound: 50
+frame: 51  stats -> variables: 1854433 clauses: 4869770 assignments: 31287  propagations: 6085967199
+no trace up to bound 52
+increasing bmc bound to 53
+termination checking up to round: 3. current BMC checked bound: 51
+frame: 52  stats -> variables: 1890046 clauses: 4963331 assignments: 31299  propagations: 6831514384
+no trace up to bound 53
+increasing bmc bound to 54
+termination checking up to round: 3. current BMC checked bound: 52
+frame: 53  stats -> variables: 1925659 clauses: 5056892 assignments: 31309  propagations: 6920131610
+no trace up to bound 54
+increasing bmc bound to 55
+termination checking up to round: 3. current BMC checked bound: 53
+frame: 54  stats -> variables: 1961272 clauses: 5150453 assignments: 31482  propagations: 7001844269
+no trace up to bound 55
+increasing bmc bound to 56
+termination checking up to round: 3. current BMC checked bound: 54
+frame: 55  stats -> variables: 1996885 clauses: 5244014 assignments: 32306  propagations: 7113727173
+no trace up to bound 56
+increasing bmc bound to 57
+termination checking up to round: 3. current BMC checked bound: 55
+frame: 56  stats -> variables: 2032498 clauses: 5337575 assignments: 33058  propagations: 7270322833
+no trace up to bound 57
+increasing bmc bound to 58
+termination checking up to round: 3. current BMC checked bound: 56
+frame: 57  stats -> variables: 2068111 clauses: 5431136 assignments: 33063  propagations: 7448306050
+no trace up to bound 58
+increasing bmc bound to 59
+termination checking up to round: 3. current BMC checked bound: 57
+frame: 58  stats -> variables: 2103724 clauses: 5524697 assignments: 34566  propagations: 7905057330
+no trace up to bound 59
+increasing bmc bound to 60
+termination checking up to round: 3. current BMC checked bound: 58
+frame: 59  stats -> variables: 2139337 clauses: 5618258 assignments: 34589  propagations: 8023318611
+no trace up to bound 60
+increasing bmc bound to 61
+termination checking up to round: 3. current BMC checked bound: 59
+frame: 60  stats -> variables: 2174950 clauses: 5711819 assignments: 34774  propagations: 8700686952
+no trace up to bound 61
+increasing bmc bound to 62
+termination checking up to round: 3. current BMC checked bound: 60
+frame: 61  stats -> variables: 2210563 clauses: 5805380 assignments: 34784  propagations: 9105046643
+no trace up to bound 62
+increasing bmc bound to 63
+termination checking up to round: 3. current BMC checked bound: 61
+frame: 62  stats -> variables: 2246176 clauses: 5898941 assignments: 35681  propagations: 9200782254
+no trace up to bound 63
+increasing bmc bound to 64
+termination checking up to round: 3. current BMC checked bound: 62
+frame: 63  stats -> variables: 2281789 clauses: 5992502 assignments: 35686  propagations: 9278248412
+no trace up to bound 64
+increasing bmc bound to 65
+termination checking up to round: 3. current BMC checked bound: 63
+frame: 64  stats -> variables: 2317402 clauses: 6086063 assignments: 36257  propagations: 9336873910
+no trace up to bound 65
+increasing bmc bound to 66
+termination checking up to round: 3. current BMC checked bound: 64
+frame: 65  stats -> variables: 2353015 clauses: 6179624 assignments: 36266  propagations: 9587111692
+no trace up to bound 66
+increasing bmc bound to 67
+termination checking up to round: 3. current BMC checked bound: 65
+frame: 66  stats -> variables: 2388628 clauses: 6273185 assignments: 36358  propagations: 9839186192
+no trace up to bound 67
+increasing bmc bound to 68
+termination checking up to round: 3. current BMC checked bound: 66
+frame: 67  stats -> variables: 2424241 clauses: 6366746 assignments: 36788  propagations: 10050879160
+no trace up to bound 68
+increasing bmc bound to 69
+termination checking up to round: 3. current BMC checked bound: 67
+frame: 68  stats -> variables: 2459854 clauses: 6460307 assignments: 36815  propagations: 10281936948
+no trace up to bound 69
+increasing bmc bound to 70
+termination checking up to round: 3. current BMC checked bound: 68
+frame: 69  stats -> variables: 2495467 clauses: 6553868 assignments: 36919  propagations: 10498317837
+no trace up to bound 70
+increasing bmc bound to 71
+termination checking up to round: 3. current BMC checked bound: 69
+frame: 70  stats -> variables: 2531080 clauses: 6647429 assignments: 37657  propagations: 10613440432
+no trace up to bound 71
+increasing bmc bound to 72
+termination checking up to round: 3. current BMC checked bound: 70
+frame: 71  stats -> variables: 2566693 clauses: 6740990 assignments: 38074  propagations: 10820065521
+no trace up to bound 72
+increasing bmc bound to 73
+termination checking up to round: 3. current BMC checked bound: 71
+frame: 72  stats -> variables: 2602306 clauses: 6834551 assignments: 38085  propagations: 11014491261
+no trace up to bound 73
+increasing bmc bound to 74
+termination checking up to round: 3. current BMC checked bound: 72
+frame: 73  stats -> variables: 2637919 clauses: 6928112 assignments: 46074  propagations: 11495488611
+no trace up to bound 74
+increasing bmc bound to 75
+termination checking up to round: 3. current BMC checked bound: 73
+frame: 74  stats -> variables: 2673532 clauses: 7021673 assignments: 46176  propagations: 11661504041
+no trace up to bound 75
+increasing bmc bound to 76
+termination checking up to round: 3. current BMC checked bound: 74
+frame: 75  stats -> variables: 2709145 clauses: 7115234 assignments: 46198  propagations: 12328586352
+no trace up to bound 76
+increasing bmc bound to 77
+termination checking up to round: 3. current BMC checked bound: 75
+frame: 76  stats -> variables: 2744758 clauses: 7208795 assignments: 46289  propagations: 12528924584
+no trace up to bound 77
+increasing bmc bound to 78
+termination checking up to round: 3. current BMC checked bound: 76
+frame: 77  stats -> variables: 2780371 clauses: 7302356 assignments: 47677  propagations: 12851352463
+no trace up to bound 78
+increasing bmc bound to 79
+termination checking up to round: 3. current BMC checked bound: 77
+frame: 78  stats -> variables: 2815984 clauses: 7395917 assignments: 49245  propagations: 13614466047
+no trace up to bound 79
+increasing bmc bound to 80
+termination checking up to round: 3. current BMC checked bound: 78
+frame: 79  stats -> variables: 2851597 clauses: 7489478 assignments: 50464  propagations: 13695945546
+no trace up to bound 80
+increasing bmc bound to 81
+termination checking up to round: 3. current BMC checked bound: 79
+frame: 80  stats -> variables: 2887210 clauses: 7583039 assignments: 50879  propagations: 13752693803
+no trace up to bound 81
+increasing bmc bound to 82
+termination checking up to round: 3. current BMC checked bound: 80
+frame: 81  stats -> variables: 2922823 clauses: 7676600 assignments: 51776  propagations: 13827966689
+no trace up to bound 82
+increasing bmc bound to 83
+termination checking up to round: 3. current BMC checked bound: 81
+frame: 82  stats -> variables: 2958436 clauses: 7770161 assignments: 51786  propagations: 13887234093
+no trace up to bound 83
+increasing bmc bound to 84
+termination checking up to round: 3. current BMC checked bound: 82
+frame: 83  stats -> variables: 2994049 clauses: 7863722 assignments: 52520  propagations: 14142599217
+no trace up to bound 84
+increasing bmc bound to 85
+termination checking up to round: 3. current BMC checked bound: 83
+frame: 84  stats -> variables: 3029662 clauses: 7957283 assignments: 52535  propagations: 14267884771
+no trace up to bound 85
+increasing bmc bound to 86
+termination checking up to round: 3. current BMC checked bound: 84
+frame: 85  stats -> variables: 3065275 clauses: 8050844 assignments: 53440  propagations: 14461694964
+no trace up to bound 86
+increasing bmc bound to 87
+termination checking up to round: 3. current BMC checked bound: 85
+frame: 86  stats -> variables: 3100888 clauses: 8144405 assignments: 53451  propagations: 14526450903
+no trace up to bound 87
+increasing bmc bound to 88
+termination checking up to round: 3. current BMC checked bound: 86
+frame: 87  stats -> variables: 3136501 clauses: 8237966 assignments: 59974  propagations: 15809649243
+no trace up to bound 88
+increasing bmc bound to 89
+termination checking up to round: 3. current BMC checked bound: 87
+frame: 88  stats -> variables: 3172114 clauses: 8331527 assignments: 59992  propagations: 15957824582
+no trace up to bound 89
+increasing bmc bound to 90
+termination checking up to round: 3. current BMC checked bound: 88
+frame: 89  stats -> variables: 3207727 clauses: 8425088 assignments: 61020  propagations: 17196664851
+no trace up to bound 90
+increasing bmc bound to 91
+termination checking up to round: 3. current BMC checked bound: 89
+frame: 90  stats -> variables: 3243340 clauses: 8518649 assignments: 66162  propagations: 17728900143
+no trace up to bound 91
+increasing bmc bound to 92
+termination checking up to round: 3. current BMC checked bound: 90
+frame: 91  stats -> variables: 3278953 clauses: 8612210 assignments: 67387  propagations: 17824528790
+no trace up to bound 92
+increasing bmc bound to 93
+termination checking up to round: 3. current BMC checked bound: 91
+frame: 92  stats -> variables: 3314566 clauses: 8705771 assignments: 67472  propagations: 17968941159
+no trace up to bound 93
+increasing bmc bound to 94
+termination checking up to round: 3. current BMC checked bound: 92
+frame: 93  stats -> variables: 3350179 clauses: 8799332 assignments: 67886  propagations: 18175955935
+no trace up to bound 94
+increasing bmc bound to 95
+termination checking up to round: 3. current BMC checked bound: 93
+frame: 94  stats -> variables: 3385792 clauses: 8892893 assignments: 68626  propagations: 18512690028
+no trace up to bound 95
+increasing bmc bound to 96
+termination checking up to round: 3. current BMC checked bound: 94
+frame: 95  stats -> variables: 3421405 clauses: 8986454 assignments: 68965  propagations: 18809041366
+no trace up to bound 96
+increasing bmc bound to 97
+termination checking up to round: 3. current BMC checked bound: 95
+frame: 96  stats -> variables: 3457018 clauses: 9080015 assignments: 75853  propagations: 19400045551
+no trace up to bound 97
+increasing bmc bound to 98
+termination checking up to round: 3. current BMC checked bound: 96
+frame: 97  stats -> variables: 3492631 clauses: 9173576 assignments: 76272  propagations: 19561776497
+no trace up to bound 98
+increasing bmc bound to 99
+termination checking up to round: 3. current BMC checked bound: 97
+frame: 98  stats -> variables: 3528244 clauses: 9267137 assignments: 81765  propagations: 19725375851
+no trace up to bound 99
+increasing bmc bound to 100
+termination checking up to round: 3. current BMC checked bound: 98
+
+sat_time:  0.000000
+term_time: 4285.045689
+gen_time:  0.000000
+bmc_time:  1226.814055
+simp_time: 0.000000
+total_time: 5514.758252
+
+dis_count: 2
+dis_maxlen: 2
+
+[1;31mkey=[0m[1;31m1[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m1[0m[1;31m0[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m1[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m
+checking key
+
+NEOS : /home/jonti/jonti_share/neos/bin/neos
+UC Berkeley, ABC 1.01 (compiled Apr 22 2020 16:07:37)
+abc 01> dsec ./tmp68882/cir1.bench  ./tmp68882/cir2.bench
+Warning: 2244 registers in this network have don't-care init values.
+The don't-care are assumed to be 0. The result may not verify.
+Use command "print_latch" to see the init values of registers.
+Use command "zero" to convert or "init" to change the values.
+Networks are equivalent.  Time =     0.02 sec
+
+equivalent
+
+done

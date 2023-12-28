@@ -1,0 +1,372 @@
+enc-ckt has DFFs. running sequnetial attack...
+dec method is: int
+vebrosity: 0
+key-condition sweeping mode: 2
+BMC sweeping mode: 0
+AIG mode : 0
+Relative to kckt SAT-sweeping: 0
+with propagation limit: -1
+with mitter sweep: 0
+BDD analysis option: 0
+KC BDD size limit: 0
+BMC bound limit: 600
+frame: 0  stats -> variables: 744 clauses: 1898 assignments: 0  propagations: 0
+no trace up to bound 1
+adding termination links
+frame: 1  stats -> variables: 1426 clauses: 3796 assignments: 0  propagations: 1182
+no trace up to bound 2
+increasing bmc bound to 3
+termination checking up to round: 1. current BMC checked bound: 1
+frame: 2  stats -> variables: 2107 clauses: 5652 assignments: 0  propagations: 5257
+no trace up to bound 3
+increasing bmc bound to 4
+termination checking up to round: 2. current BMC checked bound: 2
+frame: 3  stats -> variables: 2788 clauses: 7508 assignments: 0  propagations: 13140
+no trace up to bound 4
+increasing bmc bound to 5
+termination checking up to round: 3. current BMC checked bound: 3
+frame: 4  stats -> variables: 3469 clauses: 9364 assignments: 0  propagations: 21649
+no trace up to bound 5
+increasing bmc bound to 6
+termination checking up to round: 3. current BMC checked bound: 4
+frame: 5  stats -> variables: 4150 clauses: 11220 assignments: 0  propagations: 30902
+no trace up to bound 6
+increasing bmc bound to 7
+termination checking up to round: 3. current BMC checked bound: 5
+frame: 6  stats -> variables: 4831 clauses: 13076 assignments: 0  propagations: 41774
+no trace up to bound 7
+increasing bmc bound to 8
+termination checking up to round: 3. current BMC checked bound: 6
+frame: 7  stats -> variables: 5512 clauses: 14932 assignments: 0  propagations: 54336
+no trace up to bound 8
+increasing bmc bound to 9
+termination checking up to round: 3. current BMC checked bound: 7
+frame: 8  stats -> variables: 6193 clauses: 16788 assignments: 0  propagations: 68903
+no trace up to bound 9
+increasing bmc bound to 10
+termination checking up to round: 3. current BMC checked bound: 8
+frame: 9  stats -> variables: 6874 clauses: 18644 assignments: 0  propagations: 127668
+no trace up to bound 10
+increasing bmc bound to 11
+termination checking up to round: 3. current BMC checked bound: 9
+frame: 10  stats -> variables: 7555 clauses: 20500 assignments: 0  propagations: 160042
+no trace up to bound 11
+increasing bmc bound to 12
+termination checking up to round: 3. current BMC checked bound: 10
+frame: 11  stats -> variables: 8236 clauses: 22356 assignments: 0  propagations: 296485
+no trace up to bound 12
+increasing bmc bound to 13
+termination checking up to round: 3. current BMC checked bound: 11
+frame: 12  stats -> variables: 8917 clauses: 24212 assignments: 0  propagations: 408180
+no trace up to bound 13
+increasing bmc bound to 14
+termination checking up to round: 3. current BMC checked bound: 12
+frame: 13  stats -> variables: 9598 clauses: 26068 assignments: 0  propagations: 474177
+no trace up to bound 14
+increasing bmc bound to 15
+termination checking up to round: 3. current BMC checked bound: 13
+frame: 14  stats -> variables: 10279 clauses: 27924 assignments: 0  propagations: 549700
+no trace up to bound 15
+increasing bmc bound to 16
+termination checking up to round: 3. current BMC checked bound: 14
+frame: 15  stats -> variables: 10960 clauses: 29780 assignments: 0  propagations: 600847
+no trace up to bound 16
+increasing bmc bound to 17
+termination checking up to round: 3. current BMC checked bound: 15
+frame: 16  stats -> variables: 11641 clauses: 31636 assignments: 0  propagations: 714007
+no trace up to bound 17
+increasing bmc bound to 18
+termination checking up to round: 3. current BMC checked bound: 16
+frame: 17  stats -> variables: 12322 clauses: 33492 assignments: 0  propagations: 808092
+no trace up to bound 18
+increasing bmc bound to 19
+termination checking up to round: 3. current BMC checked bound: 17
+frame: 18  stats -> variables: 13003 clauses: 35348 assignments: 0  propagations: 882892
+no trace up to bound 19
+increasing bmc bound to 20
+termination checking up to round: 3. current BMC checked bound: 18
+frame: 19  stats -> variables: 13684 clauses: 37204 assignments: 0  propagations: 1106079
+no trace up to bound 20
+increasing bmc bound to 21
+termination checking up to round: 3. current BMC checked bound: 19
+frame: 20  stats -> variables: 14365 clauses: 39060 assignments: 0  propagations: 1328621
+no trace up to bound 21
+increasing bmc bound to 22
+termination checking up to round: 3. current BMC checked bound: 20
+frame: 21  stats -> variables: 15046 clauses: 40916 assignments: 0  propagations: 1666022
+no trace up to bound 22
+increasing bmc bound to 23
+termination checking up to round: 3. current BMC checked bound: 21
+frame: 22  stats -> variables: 15727 clauses: 42772 assignments: 0  propagations: 1828832
+no trace up to bound 23
+increasing bmc bound to 24
+termination checking up to round: 3. current BMC checked bound: 22
+frame: 23  stats -> variables: 16408 clauses: 44628 assignments: 0  propagations: 2077213
+no trace up to bound 24
+increasing bmc bound to 25
+termination checking up to round: 3. current BMC checked bound: 23
+frame: 24  stats -> variables: 17089 clauses: 46484 assignments: 0  propagations: 2364810
+no trace up to bound 25
+increasing bmc bound to 26
+termination checking up to round: 3. current BMC checked bound: 24
+frame: 25  stats -> variables: 17770 clauses: 48340 assignments: 0  propagations: 2503692
+no trace up to bound 26
+increasing bmc bound to 27
+termination checking up to round: 3. current BMC checked bound: 25
+frame: 26  stats -> variables: 18451 clauses: 50196 assignments: 0  propagations: 2722230
+no trace up to bound 27
+increasing bmc bound to 28
+termination checking up to round: 3. current BMC checked bound: 26
+frame: 27  stats -> variables: 19132 clauses: 52052 assignments: 0  propagations: 3096608
+no trace up to bound 28
+increasing bmc bound to 29
+termination checking up to round: 3. current BMC checked bound: 27
+frame: 28  stats -> variables: 19813 clauses: 53908 assignments: 0  propagations: 3329046
+no trace up to bound 29
+increasing bmc bound to 30
+termination checking up to round: 3. current BMC checked bound: 28
+frame: 29  stats -> variables: 20494 clauses: 55764 assignments: 0  propagations: 3595166
+no trace up to bound 30
+increasing bmc bound to 31
+termination checking up to round: 3. current BMC checked bound: 29
+frame: 30  stats -> variables: 21175 clauses: 57620 assignments: 0  propagations: 3936834
+no trace up to bound 31
+increasing bmc bound to 32
+termination checking up to round: 3. current BMC checked bound: 30
+frame: 31  stats -> variables: 21856 clauses: 59476 assignments: 0  propagations: 4426560
+no trace up to bound 32
+increasing bmc bound to 33
+termination checking up to round: 3. current BMC checked bound: 31
+frame: 32  stats -> variables: 22537 clauses: 61332 assignments: 0  propagations: 4715465
+DIS iter: 0
+  DIP clk_0 -> 00110  000000
+  DIP clk_1 -> 00101  100001
+  DIP clk_2 -> 00101  100001
+  DIP clk_3 -> 00100  100001
+  DIP clk_4 -> 00101  100001
+  DIP clk_5 -> 00101  100001
+  DIP clk_6 -> 00100  100001
+  DIP clk_7 -> 00100  100001
+  DIP clk_8 -> 00100  100001
+  DIP clk_9 -> 00100  100001
+  DIP clk_10 -> 00100  100001
+  DIP clk_11 -> 00100  100001
+  DIP clk_12 -> 00101  100001
+  DIP clk_13 -> 00100  100001
+  DIP clk_14 -> 00100  100001
+  DIP clk_15 -> 00100  100001
+  DIP clk_16 -> 00100  100001
+  DIP clk_17 -> 00101  100001
+  DIP clk_18 -> 00100  100001
+  DIP clk_19 -> 00101  100001
+  DIP clk_20 -> 00101  100001
+  DIP clk_21 -> 00100  100001
+  DIP clk_22 -> 00100  100001
+  DIP clk_23 -> 00100  100001
+  DIP clk_24 -> 00101  100001
+  DIP clk_25 -> 00101  100001
+  DIP clk_26 -> 00101  100001
+  DIP clk_27 -> 00100  100001
+  DIP clk_28 -> 00100  100001
+  DIP clk_29 -> 00101  100001
+  DIP clk_30 -> 00111  100001
+  DIP clk_31 -> 00001  100001
+  DIP clk_32 -> 00000  100001
+extending to 33
+depth[33]: key-condition circuit num gates: 16232
+  dis: 1 stats -> variables: 38770 clauses: 103487 assignments: 5467  propagations: 4892717
+termination checking up to round: 3. current BMC checked bound: 31
+DIS iter: 1
+  DIP clk_0 -> 00100  000000
+  DIP clk_1 -> 00111  100001
+  DIP clk_2 -> 00111  100001
+  DIP clk_3 -> 00110  100001
+  DIP clk_4 -> 00111  100001
+  DIP clk_5 -> 00111  100001
+  DIP clk_6 -> 00110  100001
+  DIP clk_7 -> 00110  100001
+  DIP clk_8 -> 00110  100001
+  DIP clk_9 -> 00110  100001
+  DIP clk_10 -> 00110  100001
+  DIP clk_11 -> 00110  100001
+  DIP clk_12 -> 00111  100001
+  DIP clk_13 -> 00110  100001
+  DIP clk_14 -> 00110  100001
+  DIP clk_15 -> 00110  100001
+  DIP clk_16 -> 00110  100001
+  DIP clk_17 -> 00111  100001
+  DIP clk_18 -> 00110  100001
+  DIP clk_19 -> 00111  100001
+  DIP clk_20 -> 00111  100001
+  DIP clk_21 -> 00110  100001
+  DIP clk_22 -> 00110  100001
+  DIP clk_23 -> 00110  100001
+  DIP clk_24 -> 00111  100001
+  DIP clk_25 -> 00111  100001
+  DIP clk_26 -> 00111  100001
+  DIP clk_27 -> 00110  100001
+  DIP clk_28 -> 00110  100001
+  DIP clk_29 -> 00111  100001
+  DIP clk_30 -> 00101  100001
+  DIP clk_31 -> 00001  100001
+  DIP clk_32 -> 00010  100001
+depth[33]: key-condition circuit num gates: 32465
+  dis: 2 stats -> variables: 55002 clauses: 145642 assignments: 10933  propagations: 5031191
+termination checking up to round: 3. current BMC checked bound: 31
+DIS iter: 2
+  DIP clk_0 -> 00011  000000
+  DIP clk_1 -> 00000  100001
+  DIP clk_2 -> 00000  100001
+  DIP clk_3 -> 00001  100001
+  DIP clk_4 -> 00001  100001
+  DIP clk_5 -> 00001  100001
+  DIP clk_6 -> 00001  100001
+  DIP clk_7 -> 00001  100001
+  DIP clk_8 -> 00011  100001
+  DIP clk_9 -> 00010  100001
+  DIP clk_10 -> 00001  100001
+  DIP clk_11 -> 00001  100001
+  DIP clk_12 -> 00000  100001
+  DIP clk_13 -> 00000  100001
+  DIP clk_14 -> 00001  100001
+  DIP clk_15 -> 00000  100001
+  DIP clk_16 -> 00000  100001
+  DIP clk_17 -> 00000  100001
+  DIP clk_18 -> 00001  100001
+  DIP clk_19 -> 00000  100001
+  DIP clk_20 -> 00000  100001
+  DIP clk_21 -> 00001  100001
+  DIP clk_22 -> 00001  100001
+  DIP clk_23 -> 00001  100001
+  DIP clk_24 -> 00001  100001
+  DIP clk_25 -> 00000  100001
+  DIP clk_26 -> 00001  100001
+  DIP clk_27 -> 00001  100001
+  DIP clk_28 -> 00000  100001
+  DIP clk_29 -> 00001  100001
+  DIP clk_30 -> 00001  100001
+  DIP clk_31 -> 00110  100001
+  DIP clk_32 -> 00101  100010
+depth[33]: key-condition circuit num gates: 48698
+  dis: 3 stats -> variables: 71234 clauses: 187797 assignments: 16741  propagations: 6090983
+termination checking up to round: 3. current BMC checked bound: 31
+no trace up to bound 33
+increasing bmc bound to 34
+termination checking up to round: 3. current BMC checked bound: 32
+frame: 33  stats -> variables: 71915 clauses: 189653 assignments: 16974  propagations: 8983359
+no trace up to bound 34
+increasing bmc bound to 35
+termination checking up to round: 3. current BMC checked bound: 33
+frame: 34  stats -> variables: 72596 clauses: 191509 assignments: 16985  propagations: 11624143
+no trace up to bound 35
+increasing bmc bound to 36
+termination checking up to round: 3. current BMC checked bound: 34
+frame: 35  stats -> variables: 73277 clauses: 193365 assignments: 16990  propagations: 17526989
+no trace up to bound 36
+increasing bmc bound to 37
+termination checking up to round: 3. current BMC checked bound: 35
+frame: 36  stats -> variables: 73958 clauses: 195221 assignments: 18896  propagations: 30009757
+no trace up to bound 37
+increasing bmc bound to 38
+termination checking up to round: 3. current BMC checked bound: 36
+frame: 37  stats -> variables: 74639 clauses: 197077 assignments: 20926  propagations: 47359531
+no trace up to bound 38
+increasing bmc bound to 39
+termination checking up to round: 3. current BMC checked bound: 37
+frame: 38  stats -> variables: 75320 clauses: 198933 assignments: 21877  propagations: 74153924
+no trace up to bound 39
+increasing bmc bound to 40
+termination checking up to round: 3. current BMC checked bound: 38
+frame: 39  stats -> variables: 76001 clauses: 200789 assignments: 21882  propagations: 101336980
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+no trace up to bound 40
+increasing bmc bound to 41
+termination checking up to round: 3. current BMC checked bound: 39
+frame: 40  stats -> variables: 76682 clauses: 202645 assignments: 21884  propagations: 141804999
+no trace up to bound 41
+increasing bmc bound to 42
+termination checking up to round: 3. current BMC checked bound: 40
+frame: 41  stats -> variables: 77363 clauses: 204501 assignments: 23532  propagations: 196940038
+no trace up to bound 42
+increasing bmc bound to 43
+termination checking up to round: 3. current BMC checked bound: 41
+frame: 42  stats -> variables: 78044 clauses: 206357 assignments: 24070  propagations: 256954162
+DIS iter: 3
+  DIP clk_0 -> 00010  000000
+  DIP clk_1 -> 00000  100001
+  DIP clk_2 -> 00000  100001
+  DIP clk_3 -> 00001  100001
+  DIP clk_4 -> 00000  100001
+  DIP clk_5 -> 00001  100001
+  DIP clk_6 -> 00001  100001
+  DIP clk_7 -> 00001  100001
+  DIP clk_8 -> 00001  100001
+  DIP clk_9 -> 00001  100001
+  DIP clk_10 -> 00001  100001
+  DIP clk_11 -> 00001  100001
+  DIP clk_12 -> 00001  100001
+  DIP clk_13 -> 00001  100001
+  DIP clk_14 -> 00001  100001
+  DIP clk_15 -> 00001  100001
+  DIP clk_16 -> 00001  100001
+  DIP clk_17 -> 00000  100001
+  DIP clk_18 -> 00011  100001
+  DIP clk_19 -> 00010  100001
+  DIP clk_20 -> 00001  100001
+  DIP clk_21 -> 00001  100001
+  DIP clk_22 -> 00001  100001
+  DIP clk_23 -> 00001  100001
+  DIP clk_24 -> 00001  100001
+  DIP clk_25 -> 00001  100001
+  DIP clk_26 -> 00001  100001
+  DIP clk_27 -> 00001  100001
+  DIP clk_28 -> 00011  100001
+  DIP clk_29 -> 00011  100001
+  DIP clk_30 -> 00001  100001
+  DIP clk_31 -> 00001  100001
+  DIP clk_32 -> 00001  100010
+  DIP clk_33 -> 00000  100010
+  DIP clk_34 -> 00001  100010
+  DIP clk_35 -> 00001  100010
+  DIP clk_36 -> 00000  100010
+  DIP clk_37 -> 00001  100010
+  DIP clk_38 -> 00010  100010
+  DIP clk_39 -> 00010  100010
+  DIP clk_40 -> 00010  100010
+  DIP clk_41 -> 00110  100010
+  DIP clk_42 -> 00100  001100
+extending to 43
+depth[43]: key-condition circuit num gates: 71261
+  dis: 4 stats -> variables: 100606 clauses: 265022 assignments: 33200  propagations: 326703965
+termination checking up to round: 3. current BMC checked bound: 41
+reached combinational termination!
+
+sat_time:  0.000000
+term_time: 2.115424
+gen_time:  0.000000
+bmc_time:  116.355093
+simp_time: 0.000000
+total_time: 121.245581
+
+dis_count: 4
+dis_maxlen: 43
+
+[1;31mkey=[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m[1;31m0[0m
+checking key
+
+NEOS : /home/jonti/jonti_share/neos/bin/neos
+UC Berkeley, ABC 1.01 (compiled Apr 22 2020 16:07:37)
+abc 01> dsec ./tmp232074/cir1.bench  ./tmp232074/cir2.bench
+Warning: 42 registers in this network have don't-care init values.
+The don't-care are assumed to be 0. The result may not verify.
+Use command "print_latch" to see the init values of registers.
+Use command "zero" to convert or "init" to change the values.
+Networks are equivalent.  Time =     0.02 sec
+
+equivalent
+
+done

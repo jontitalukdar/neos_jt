@@ -1,0 +1,1000 @@
+   75  ls
+   76  pwd
+   77  ls
+   78  mkdir jonti_share
+   79  sudo nano /etc/samba/smb.conf
+   80  sudo service smbd restart 
+   81  testparm
+   82  ifconfig
+   83  smbclient -L //10.148.54.222/jonti_share -U jonti
+   84  ls
+   85  cd jonti_share/
+   86  ls
+   87  python jonti.py 
+   88  python3
+   89  python3 jonti.py 
+   90  sudo nano /etc/samba/smb.conf
+   91  smbclient -L //10.148.54.222/jonti_share -U jonti
+   92  smbclient //10.148.54.222/jonti_share -U jonti
+   93  ls
+   94  cd ../
+   95  ls
+   96  ls -altr
+   97  cp -rf neos/ jonti_share/
+   98  ls
+   99  pwd
+  100  smbclient -L
+  101  ifconfig
+  102  smbclient -L \\10.148.54.222\home\jonti_share
+  103  smbclient -L \\10.148.54.222\jonti_share
+  104  clear
+  105  ls
+  106  cd jonti_share/
+  107  ls
+  108  cd neos/
+  109  ls
+  110  ./bin/neos -h
+  111  ./bin/neos -c
+  112  ./bin/neos -e -h
+  113  ./bin/neos -d -h
+  114  ./bin/neos -d
+  115  ./bin/neos -e -h
+  116  ./bin/neos -d -h
+  117  ./bin/neos -d 
+  118  sudo apt-get install xdot
+  119  hostname
+  120  ifconfig
+  121  cd ../
+  122  ls
+  123  rm -rf bistlock/
+  124  ls
+  125  cd neos/
+  126  ls
+  127  cd jonti_share/
+  128  ls
+  129  cd neos/
+  130  ls
+  131  ./bin/neos -e xor ./bench/seq/s27.bench ./bench/testing/s27_enc.bench 10
+  132  ./bin/neos -d int ./bench/seq/s27.bench ./bench/testing/s27_enc.bench 100
+  133  ./bin/neos -e xor ./bench/seq/s27.bench ./bench/testing/s27_enc.bench 1
+  134  ./bin/neos -d int ./bench/seq/s27.bench ./bench/testing/s27_enc.bench 100
+  135  ;s
+  136  ls
+  137  ls test/
+  138  ./bin/abc 
+  139  ls
+  140  ./bin/neos 
+  141  ls
+  142  ./bin/neos 
+  143  ./bin/neos -h
+  144  ./bin/neos -e xor ./test/s27_orig_dff.bench ./test/s27_enc_dff.bench 1
+  145  ./bin/neos -d int ./test/s27_orig_dff.bench ./test/s27_enc_dff.bench 
+  146  ./bin/neos -d int ./test/s27_orig_dff.bench ./test/s27_enc_dff.bench 100
+  147  python extract_std_cell.py test/s27_proc.v 
+  148  python3 extract_std_cell.py test/s27_proc.v 
+  149  ls
+  150  cd test/
+  151  ls
+  152  cd ../
+  153  ls
+  154  mkdir dff_test
+  155  cd iscas_exp/
+  156  ls
+  157  ls *.bench
+  158  cp *.bench ../dff_test/
+  159  ls
+  160  cd ../
+  161  ls
+  162  python process_bench_dff.py dff_test/s526.bench 
+  163  python3 process_bench_dff.py dff_test/s526.bench 
+  164  python3 process_bench_dff.py dff_test/aes_core.bench 
+  165  clear
+  166  python3 process_bench_dff.py dff_test/aes_core.bench 
+  167  clear
+  168  python3 process_bench_dff.py dff_test/aes_core.bench 
+  169  python
+  170  python3
+  171  clear
+  172  python3 process_bench_dff.py dff_test/aes_core.bench 
+  173  clear
+  174  python3 process_bench_dff.py dff_test/aes_core.bench 
+  175  python3
+  176  clear
+  177  python3
+  178  clear
+  179  python3 process_bench_dff.py dff_test/aes_core.bench 
+  180  clear
+  181  python3 process_bench_dff.py dff_test/aes_core.bench 
+  182  python3 process_bench_dff.py dff_test/s27.bench 
+  183  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100
+  184  python3 process_bench_dff.py dff_test/s27.bench 
+  185  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100
+  186  python3 process_bench_dff.py dff_test/aes_core.bench 
+  187  ./bin/neos -d int ./dff_test/aes_core_dff_orig.bench ./dff_test/aes_core_dff_enc.bench 
+  188  ./bin/neos -d int ./dff_test/aes_core_dff_orig.bench ./dff_test/aes_core_dff_enc.bench 100
+  189  ls
+  190  nvidia-smi
+  191  cd neos/
+  192  ls
+  193  cd ../
+  194  ls
+  195  cd jonti_share/
+  196  ls
+  197  cd neos/
+  198  ls
+  199  clear
+  200  ls
+  201  python3 process_bench_dff.py dff_test/s27_orig.bench 
+  202  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 
+  203  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100
+  204  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep var
+  205  ./bin/neos -d int ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep 'var'
+  206  ./bin/neos -d int --kc_sweep=2 ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep 'var'
+  207  ./bin/neos -d int --kc_sweep=3 ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep 'var'
+  208  ./bin/neos -d int --kc_sweep=3 --mitt_sweep=2 ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep 'var'
+  209  ./bin/neos -d int --kc_sweep=3 --mitt_sweep=2 ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100
+  210  ./bin/neos -d int --kc_sweep=2  ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100
+  211  ./bin/neos -d int --kc_sweep=2  ./dff_test/s27_dff_orig.bench ./dff_test/s27_dff_enc.bench 100 | grep var
+  212  history
+  213  clear
+  214  python3 process_bench_dff.py dff_test/s526.bench 
+  215  clear
+  216  python3 process_bench_dff.py dff_test/s526.bench 
+  217  clear
+  218  python3 process_bench_dff.py dff_test/s526.bench 
+  219  ./bin/neos -d int --kc_sweep=2 ./dff_test/s526_dff_orig.bench ./dff_test/s526_dff_enc.bench 100
+  220  ./bin/neos -d int --kc_sweep=2 ./dff_test/s526_dff_orig.bench ./dff_test/s526_dff_enc.bench 100 | grep var
+  221  ./bin/neos -d int --kc_sweep=3 --kc_sweep_period=5 ./dff_test/s526_dff_orig.bench ./dff_test/s526_dff_enc.bench 100 
+  222  clear
+  223  python3 process_bench_dff.py dff_test/s5378.bench 
+  224  ./bin/neos -d int --kc_sweep=2 ./dff_test/s5378_dff_orig.bench ./dff_test/s5378_dff_enc.bench 100 --mo=60000
+  225  ./bin/neos -d int --kc_sweep=2 ./dff_test/s5378_dff_orig.bench ./dff_test/s5378_dff_enc.bench 100
+  226  python3 process_bench_dff.py dff_test/s9234_1.bench 
+  227  ./bin/neos -d int --kc_sweep=2 ./dff_test/s9234_1_dff_orig.bench ./dff_test/s9234_1_dff_enc.bench 100 
+  228  clear
+  229  ./bin/neos -d int --kc_sweep=2 dff_test/aes_core_dff_orig.bench ./dff_test/aes_core_dff_enc.bench 
+  230  ./bin/neos -d int --kc_sweep=2 dff_test/aes_core_dff_orig.bench ./dff_test/aes_core_dff_enc.bench 100
+  231  ./bin/neos -d int kc_sweep=2 ./dff_test/s526_dff_orig.bench ./dff_test/s526_dff_enc.bench 
+  232  ./bin/neos -d int kc_sweep=2 ./dff_test/s526_dff_orig.bench ./dff_test/s526_dff_enc.bench 100
+  233  ./bin/neos -d int --kc_sweep=2 ./dff_test/s5378_orig.bench ./dff_test/s5378_dff_enc.bench 100
+  234  ./bin/neos -d int --kc_sweep=2 ./dff_test/s5378_dff_orig.bench ./dff_test/s5378_dff_enc.bench 100
+  235  clear
+  236  clea
+  237  clear
+  238  ./bin/neos -d int --kc_sweep=2 ./dff_test/s5378_dff_orig.bench ./dff_test/s5378_dff_enc.bench 100
+  239  clear
+  240  ./bin/neos -d int --kc_sweep=2 ./dff_test/s9234_1_dff_orig.bench ./dff_test/s9234_1_dff_enc.bench 100 
+  241  python3 process_bench_dff.py dff_test/s15850.bench 
+  242  clear
+  243  ./bin/neos -d int --kc_sweep=2 ./dff_test/s15850_dff_orig.bench ./dff_test/s15850_dff_enc.bench 100
+  244  python3 process_bench_dff.py dff_test/s35932.bench 
+  245  ./bin/neos -d int --kc_sweep=2 dff_test/s35932_dff_orig.bench dff_test/s35932_dff_enc.bench 100 
+  246  python3 process_bench_dff.py dff_test/s35932.bench 
+  247  clear
+  248  ./bin/neos -d int --kc_sweep=2 dff_test/s35932_dff_orig.bench dff_test/s35932_dff_enc.bench 100 
+  249  ./bin/neos -d int --kc_sweep=2 dff_test/s35932_dff_orig.bench dff_test/s35932_dff_enc.bench 100 --mo 60000
+  250  cd jonti_share/
+  251  ls
+  252  cd me
+  253  cd ne
+  254  cd neos/
+  255  ls
+  256  python3 process_bench_dff.py dff_test/s38417_orig.bench 
+  257  ./bin/neos -d int --kc_sweep=2 ./dff_test/s38417_orig_dff_orig.bench ./dff_test/s38417_orig_dff_enc.bench 100 --mo=10000
+  258  ls
+  259  cd jonti_share/
+  260  ls
+  261  cd neos/
+  262  ls
+  263  ./bin/neos -d int --kc_sweep=2 -h ./dff_test/s35932_dff_orig.bench ./dff_test/s35932_dff_enc.bench  100 --mo=60000
+  264  ./bin/neos -d int --kc_sweep=2  ./dff_test/s35932_dff_orig.bench ./dff_test/s35932_dff_enc.bench  100 --mo=60000
+  265  cd jonti_share/neos/
+  266  ls
+  267  nohup ./bin/neos -d int --kc_sweep=2 ./dff_test/s38417_orig_dff_orig.bench ./dff_test/s38417_orig_dff_enc.bench 100 --mo=10000
+  268  cd jonti_share/neos/
+  269  ls
+  270  python3 process_bench_dff.py dff_test/s38584_orig.bench 
+  271  ./bin/neos -d int --kc_sweep=2 ./dff_test/s38584_orig_dff_orig.bench ./dff_test/s38584_orig_dff_enc.bench 100 --mo 10000
+  272  ls
+  273  ./bin/neos -d int --kc_sweep=2 dff_test/aes_core_dff_orig.bench dff_test/aes_core_dff_enc.bench 100 --mo=10000
+  274  top
+  275  cd jonti_share/
+  276  ls
+  277  cd neos/
+  278  ls
+  279  cat nohup.out 
+  280  ls
+  281  mkdir logs
+  282  mv nohup.out logs/s38417.log
+  283  ls
+  284  ./bin/neos -d int --kc_sweep=2 ./dff_test/s35932_dff_orig.bench ./dff_test/s35932_dff_enc.bench 100 --mo=60000
+  285  nohup ./bin/neos -d int --kc_sweep=2 ./dff_test/s35932_dff_orig.bench ./dff_test/s35932_dff_enc.bench 100 --mo=60000
+  286  top
+  287  ls
+  288  cd jonti_share/neos/
+  289  ls
+  290  cd logs/
+  291  ls
+  292  ../bin/neos -d int --kc_sweep=2 ../dff_test/aes_core_dff_orig.bench ../dff_test/aes_core_dff_enc.bench 100 --mo=30000
+  293  nohup ../bin/neos -d int --kc_sweep=2 ../dff_test/aes_core_dff_orig.bench ../dff_test/aes_core_dff_enc.bench 100 --mo=30000
+  294  top
+  295  cd jonti_share/
+  296  ls
+  297  cd neos/
+  298  ls
+  299  cat nohup.out 
+  300  ls
+  301  cd logs/
+  302  ls
+  303  cat nohup.out 
+  304  cd ../
+  305  ls
+  306  python3 process_bench_dff.py dff_test/b22.bench 
+  307  ls
+  308  mv nohup.out logs/s35932.log
+  309  ls logs/
+  310  ls
+  311  ./bin/neos -d int -kc_sweep=2 dff_test/b22_dff_orig.bench dff_test/b22_dff_enc.bench 
+  312  ./bin/neos -d int -kc_sweep=2 dff_test/b22_dff_orig.bench dff_test/b22_dff_enc.bench 100 --mo=60000
+  313  ./bin/neos -d int --kc_sweep=2 dff_test/b22_dff_orig.bench dff_test/b22_dff_enc.bench 100 --mo=60000
+  314  nohup ./bin/neos -d int --kc_sweep=2 dff_test/b22_dff_orig.bench dff_test/b22_dff_enc.bench 100 --mo=60000
+  315  ls
+  316  cd jonti_share/
+  317  ls
+  318  cd neos/
+  319  ls
+  320  cd opencore_exps/
+  321  ls
+  322  cd gcm-aes/
+  323  ls
+  324  mkdir kc2
+  325  cp gcm_aes_v0.bench kc2/
+  326  cd kc2/
+  327  python3 ../../../process_bench_dff.py gcm_aes_v0.bench 
+  328  ../../../bin/neos -d int --kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 100 --mo=60000
+  329  top
+  330  ../../../bin/neos -d int --kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 100 --mo=60000
+  331  cd ../../
+  332  ls
+  333  cd mips32/kc2/
+  334  ls
+  335  python3 ../../../process_bench_dff.py Processor_syn_new_reduced_orig.bench 
+  336  ../../../bin/neos -d int --kc_sweep=2 Processor_syn_new_reduced_orig_dff_orig.bench Processor_syn_new_reduced_orig_dff_enc.bench 100 --mo=60000
+  337  nohup ../../../bin/neos -d int --kc_sweep=2 Processor_syn_new_reduced_orig_dff_orig.bench Processor_syn_new_reduced_orig_dff_enc.bench 100 --mo=60000 &
+  338  ls
+  339  cd ../
+  340  top
+  341  cd ../../
+  342  cd opencore_exps/gcm-aes/
+  343  ls
+  344  cd kc2/
+  345  s
+  346  ls
+  347  ../../../bin/neos -d int --kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 100 --mo=60000
+  348  top
+  349  ls
+  350  cd jonti_share/
+  351  ls
+  352  cd neos/
+  353  ls
+  354  cat nohup.out 
+  355  ls
+  356  cd logs/
+  357  ls
+  358  cat nohup.out 
+  359  cd ../
+  360  ls
+  361  cd opencore_exps/mips32/kc2/
+  362  l
+  363  ls
+  364  cat nohup.out 
+  365  ls
+  366  cd neos/
+  367  ls
+  368  cd ../jonti_share/neos/
+  369  ls
+  370  cat nohup.out 
+  371  ls
+  372  cd logs/
+  373  ls
+  374  cat nohup.out 
+  375  ls
+  376  ../bin/neos -d int --kc_sweep=2 ../dff_test/aes_core_dff_orig.bench ../dff_test/aes_core_dff_enc.bench 100 --mo=60000 --to=1440
+  377  rm nohup.out 
+  378  ls
+  379  nohup ../bin/neos -d int --kc_sweep=2 ../dff_test/aes_core_dff_orig.bench ../dff_test/aes_core_dff_enc.bench 100 --mo=60000 --to=1440 &
+  380  cd ../
+  381  ls
+  382  cd opencore_exps/
+  383  ls
+  384  cd wb_dma/
+  385  ls
+  386  mkdir kc2
+  387  cp wb_dma_top_syn.bench kc2/
+  388  cd kc2/
+  389  ls
+  390  python3 ../../../process_bench_dff.py wb_dma_top_syn.bench 
+  391  ls'
+  392  ls
+  393  ../../../bin/neos -d int kc_sweep=2 wb_dma_top_syn_dff_orig.bench wb_dma_top_syn_dff_enc.bench 100
+  394  ../../../bin/neos -d int --kc_sweep=2 wb_dma_top_syn_dff_orig.bench wb_dma_top_syn_dff_enc.bench 100
+  395  nohup ../../../bin/neos -d int --kc_sweep=2 wb_dma_top_syn_dff_orig.bench wb_dma_top_syn_dff_enc.bench 100 --m=60000 --to=1440 & 
+  396  cat nohup.out 
+  397  nohup ../../../bin/neos -d int --kc_sweep=2 wb_dma_top_syn_dff_orig.bench wb_dma_top_syn_dff_enc.bench 100 --mo=60000 --to=1440 & 
+  398  top
+  399  cd ../../
+  400  ls
+  401  cd sha_core1/
+  402  ls
+  403  mkdir kc2
+  404  cp sha1_syn_new_orig.bench  kc2/
+  405  cd kc2/
+  406  python3 ../../../process_bench_dff.py sha1_syn_new_orig.bench 
+  407  ../../../bin/neos -d int kc_sweep=2 sha1_syn_new_orig_dff_orig.bench sha1_syn_new_orig_dff_enc.bench 100
+  408  ../../../bin/neos -d int --kc_sweep=2 sha1_syn_new_orig_dff_orig.bench sha1_syn_new_orig_dff_enc.bench 100
+  409  nohup ../../../bin/neos -d int --kc_sweep=2 sha1_syn_new_orig_dff_orig.bench sha1_syn_new_orig_dff_enc.bench 100 --mo=60000 --to=1440 &
+  410  tp[
+  411  top
+  412  cd ../../../
+  413  ls
+  414  cd dff_test/
+  415  ls
+  416  cd ../
+  417  ls
+  418  cd opencore_exps/
+  419  mkdir des_area
+  420  cd des_area/
+  421  cp ../../dff_test/des_area.bench .
+  422  python3 ../../process_bench_dff.py des_area.bench 
+  423  ../../bin/neos -d int --kc_sweep=2 des_area_dff_orig.bench des_area_dff_enc.bench 100 
+  424  nohup ../../bin/neos -d int --kc_sweep=2 des_area_dff_orig.bench des_area_dff_enc.bench 100 --mo=10000 --to=1440 &
+  425  top
+  426  ls
+  427  cd ../
+  428  ls
+  429  cd rocket_core/
+  430  ls
+  431  mkdir kc2
+  432  cd kc2/
+  433  cp ../Rocket_syn_new.bench .
+  434  python3 ../../../process_bench_dff.py Rocket_syn_new.bench 
+  435  ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench 100
+  436  to
+  437  top
+  438  ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench 100
+  439  nohup ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench 100 --mo=60000 --to=1440 &
+  440  top
+  441  ls
+  442  cd ../
+  443  ls
+  444  ps -aef | grep neos
+  445  ls
+  446  cd kc2/
+  447  cat nohup.out 
+  448  ps -aef | grep neos
+  449  ls
+  450  cat ../../../readme.md 
+  451  ls
+  452  mv nohup.out log1
+  453  nohup ../../../bin/neos -d int --kc_sweep=3 --kc_sweep_period=5 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench 100 --mo=60000 --to=1440 & 
+  454  top
+  455  ls
+  456  cd ../mi
+  457  cd ../../
+  458  ls
+  459  cd mips32/
+  460  ls
+  461  cd kc2/
+  462  cat nohup.out 
+  463  cd ../
+  464  ls
+  465  cd ../
+  466  ls
+  467  cd ../
+  468  ls
+  469  cd logs/
+  470  ls
+  471  cat nohup.out 
+  472  cd ../
+  473  ls
+  474  cat nohup.out 
+  475  mv nohup.out logs/b22.log
+  476  top
+  477  ls
+  478  cd jonti_share/neos/
+  479  ls
+  480  cd opencore_exps/sha_core1/
+  481  ls
+  482  cd kc2/
+  483  ls
+  484  cat nohup.out 
+  485  cd ../../
+  486  ls
+  487  cd wb_dma/kc2/
+  488  cat nohup.out 
+  489  cd ../../rocket_core/
+  490  ls
+  491  cd kc2/
+  492  cat nohup.out 
+  493  cd ../
+  494  cat nohup.out 
+  495  cd ../
+  496  ls
+  497  cd gcm-aes/
+  498  ls
+  499  cd kc2/
+  500  ls
+  501  cd ../../
+  502  ls
+  503  cd des_area/
+  504  ls
+  505  cat nohup.out 
+  506  cd //
+  507  home
+  508  cd
+  509  ls
+  510  cd jonti_share/neos/
+  511  ls
+  512  cd logs/
+  513  ls
+  514  cat nohup.out 
+  515  cd neos/
+  516  cd jt
+  517  ls
+  518  clear
+  519  ls
+  520  cd ../jonti_share/neos/
+  521  ls
+  522  cd kc2_test/
+  523  ls
+  524  cp ../dff_test/s27_dff_orig.bench .
+  525  cp ../dff_test/s27_dff_enc.bench .
+  526  ls
+  527  cd jonti_share/neos/
+  528  ls
+  529  cd kc2_test/
+  530  ls
+  531  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc_8bit.bench 100 
+  532  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100 
+  533  cd ../dff_test/ 
+  534  ls
+  535  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 100 
+  536  sudo su
+  537  ls
+  538  cd jonti_share/neos/opencore_exps/
+  539  ls
+  540  cd rocket_core/
+  541  ls
+  542  cd kc2/
+  543  ls
+  544  mv nohup.out  orig.out
+  545  ls
+  546  ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench --mo=60000 --to=4320
+  547  ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench 
+  548  ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench --mo=60000 --to=4320 200
+  549  nohup ../../../bin/neos -d int --kc_sweep=2 Rocket_syn_new_dff_orig.bench Rocket_syn_new_dff_enc.bench --mo=60000 --to=4320 200 &
+  550  top
+  551  ls
+  552  cd ../../
+  553  ls
+  554  cd gcm-aes/
+  555  ls
+  556  cd kc2/
+  557  ls
+  558  nohup ../../../bin/neos -d int --kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 200 --to=4320 --mo=60000 &
+  559  cd ../../
+  560  ls
+  561  mkdir aes_core
+  562  cd aes_core/
+  563  cp ../../dff_test/aes_core* .
+  564  ls
+  565  nohup ../../bin/neos -d int --kc_sweep=2 aes_core_dff_orig.bench aes_core_dff_enc.bench 200 --to=4320 --mo=60000 &
+  566  cd ../gcm-aes/
+  567  cd kc2/
+  568  cat nohup.out 
+  569  ps -aef | grep jt292
+  570  top
+  571  ps -aef | grep jonti
+  572  ls
+  573  ../../../bin/neos -d int kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 100 
+  574  ../../../bin/neos -d int --kc_sweep=2 gcm_aes_v0_dff_orig.bench gcm_aes_v0_dff_enc.bench 100 
+  575  top
+  576  cd jonti_share/neos/
+  577  ls
+  578  clear
+  579  ls
+  580  cd dff_test/
+  581  ls
+  582  cd ../
+  583  ls
+  584  cd kc2_test/
+  585  ls
+  586  cd s526/
+  587  ls
+  588  ../../bin/neos -d int kc_sweep=2 s526_dff_orig.bench s526_dff_orig.bench 100 > scr.log
+  589  ls
+  590  cat scr.log 
+  591  ../../bin/neos -d int --kc_sweep=2 s526_dff_orig.bench s526_dff_orig.bench 100 > scr.log
+  592  cat scr.log 
+  593  ../../bin/neos -d int --kc_sweep=2 s526_dff_orig.bench s526_dff_enc.bench 100 > scr.log
+  594  cat scr.log 
+  595  ls
+  596  python3 ../../generate_lfsr.py 
+  597  ls
+  598  ../../bin/neos -d int --kc_sweep=2 s526_dff_orig.bench s526_dff_8bit_enc.bench 100
+  599  ../../bin/neos -d int --kc_sweep=2 s526_dff_orig.bench s526_dff_16bit_enc.bench 100 
+  600  lscpu
+  601  cd jonti_share/neos/
+  602  ls
+  603  cd kc2_test/
+  604  ls
+  605  cp ../dff_test/s526_dff_orig.bench .
+  606  cp ../dff_test/s526_dff_enc.bench .
+  607  ls
+  608  mkdirs526
+  609  mkdir s526
+  610  cd s526/
+  611  mv ../s526* .
+  612  l
+  613  ls
+  614  cp s526_dff_enc.bench s526_dff_8bit_enc.bench
+  615  cp s526_dff_enc.bench s526_dff_16bit_enc.bench
+  616  python3 ../../generate_lfsr.py 
+  617  ls
+  618  python3 ../../generate_lfsr.py 
+  619  ls
+  620  cat output.txt 
+  621  clear
+  622  cat output.txt 
+  623  python3 ../../generate_lfsr.py 
+  624  ../../bin/neos -d int --kc_sweep=2 s526_dff_orig.bench s526_dff_8bit_enc.bench 100 
+  625  ifconfig
+  626  cd jonti_share/neos/
+  627  ls
+  628  python generate_lfsr.py 
+  629  python3 generate_lfsr.py 
+  630  clear
+  631  python3 generate_lfsr.py 
+  632  clear
+  633  python3 generate_lfsr.py 
+  634  clear
+  635  python3 generate_lfsr.py 
+  636  clear
+  637  python3 generate_lfsr.py 
+  638  clear
+  639  python3 generate_lfsr.py 
+  640  clear
+  641  python3 generate_lfsr.py 
+  642  ls
+  643  python3 generate_lfsr.py 
+  644  clear
+  645  python3 generate_lfsr.py 
+  646  clear
+  647  python3 generate_lfsr.py 
+  648  cp dff_test/s27_dff_enc.bench kc2_test/
+  649  cd kc2_test/
+  650  ls
+  651  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  652  clear
+  653  cd ../
+  654  python3 generate_lfsr.py 
+  655  cd kc2_test/
+  656  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  657  cd ../
+  658  python3 generate_lfsr.py 
+  659  clear
+  660  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  661  cd ../
+  662  cd neos/
+  663  python3 generate_lfsr.py 
+  664  cd neos/
+  665  clear
+  666  python3 generate_lfsr.py 
+  667  cd kc2_test/
+  668  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  669  python3 generate_lfsr.py 
+  670  cd ../
+  671  python3 generate_lfsr.py 
+  672  cd kc2_test/
+  673  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  674  clear
+  675  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  676  cd ../
+  677  ls
+  678  python3 generate_lfsr.py 
+  679  cp dff_test/s27_dff_enc.bench kc2_test/
+  680  cd kc2_test/
+  681  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  682  cd ../
+  683  python3 generate_lfsr.py 
+  684  cd kc2_test/
+  685  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 100
+  686  ../bin/neos -d int --kc_sweep=2 s27_dff_orig.bench s27_dff_enc.bench 1000
+  687  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 
+  688  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 100
+  689  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 10
+  690  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 50
+  691  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc2.bench 50
+  692  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc2.bench 100
+  693  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc.bench 100
+  694  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc2.bench 100
+  695  cd ../
+  696  python3 generate_lfsr.py 
+  697  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc3.bench 100
+  698  cd kc2_test/
+  699  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc3.bench 100
+  700  ../bin/neos -d int s27_dff_orig.bench s27_dff_enc_16bit.bench 100
+  701  ls
+  702  pwd
+  703  ls
+  704  cd jonti_share/
+  705  ls
+  706  ipconfig
+  707  ifconfig
+  708  ls
+  709  cd jonti_share/
+  710  ls
+  711  cd neos/
+  712  ls
+  713  pythno generate_lfsr.py 
+  714  python generate_lfsr.py 
+  715  python3 generate_lfsr.py 
+  716  kc2
+  717  ls
+  718  cd jonti_share/
+  719  cd ../
+  720  ls
+  721  cd neos/
+  722  ls
+  723  cd ../jonti_share/
+  724  ls
+  725  cd neos/
+  726  ls
+  727  car ./neo
+  728  ./neos
+  729  ls
+  730  ./bin/neos 
+  731  story
+  732  history
+  733  ls
+  734  cd jonti_share/
+  735  cd neos/
+  736  ls
+  737  history
+  738  ls
+  739  cd kc2_
+  740  cd kc2_verif/
+  741  ls
+  742  cd ../
+  743  ls
+  744  cd kc2_
+  745  cd kc2_verif/
+  746  ls
+  747  python ../process_bench_dff.py mips32_unlocked_syn.bench 
+  748  python3 ../process_bench_dff.py mips32_unlocked_syn.bench 
+  749  python ../process_bench_dff.py mips32_32bit_1lfsr_syn.bench
+  750  python3 ../process_bench_dff.py mips32_32bit_1lfsr_syn.bench
+  751  ls
+  752  history
+  753  ../bin/neos -d int mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 
+  754  python3 ../process_bench_dff.py mips32_32bit_1lfsr_syn.bench 
+  755  ../bin/neos -d int mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 
+  756  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 
+  757  history
+  758  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig 100
+  759  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 100
+  760  ../bin/neos 
+  761  ../bin/neos -h
+  762  ../bin/neos -d
+  763  ../bin/neos -d int1
+  764  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig 
+  765  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 
+  766  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench --mo=60000
+  767  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 100 --mo=60000
+  768  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 1000 --mo=60000
+  769  ls
+  770  cd neos/
+  771  ls
+  772  cd ../jonti_share/
+  773  ls
+  774  cd neos/
+  775  ls
+  776  cd kc2_verif/
+  777  ls
+  778  cd jonti_share/neos/kc2_test/
+  779  l
+  780  ls
+  781  cd ../
+  782  ls
+  783  cd kc2_verif/
+  784  ls
+  785  ../bin/neos -d int --kc_sweep=2 mips32_unlocked_syn_dff_orig.bench mips32_32bit_1lfsr_syn_dff_orig.bench 100 --mo=60000
+  786  ls
+  787  cd ../
+  788  ls
+  789  cd ls
+  790  ls
+  791  cd kc2_verif/
+  792  ls
+  793  mkdir mips32
+  794  mv * mips32
+  795  ls
+  796  cd mips32/
+  797  ls
+  798  cd ../
+  799  ls
+  800  cd ../
+  801  ls
+  802  cd jonti_share/neos/kc2_verif/mips32/
+  803  ls
+  804  cd ../aes_bracket/
+  805  ls
+  806  python3 ../../process_bench_dff.py aes_unlocked_syn_comb_v2_break.bench 
+  807  python3 ../../process_bench_dff.py aes_32bit_1lfsr_syn_comb_v2_break.bench 
+  808  ../../bin/neos -d int --kc_sweep=2 aes_unlocked_syn_comb_v2_break_dff_orig.bench aes_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  809  nohup ../../bin/neos -d int --kc_sweep=2 aes_unlocked_syn_comb_v2_break_dff_orig.bench aes_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  810  cat nohup.out 
+  811  nohup ../../bin/neos -d int --kc_sweep=2 aes_unlocked_syn_comb_v2_break_dff_orig.bench aes_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  812  cd jonti_share/neos/
+  813  ;s
+  814  ls
+  815  cd kc2_ver
+  816  cd kc2_verif/
+  817  ls
+  818  cd aes_bracket/
+  819  ls
+  820  cat nohup.out 
+  821  ls
+  822  top
+  823  ls
+  824  cd jonti_share/neos/
+  825  cd kc2_verif/
+  826  ls
+  827  cd aes_bracket/
+  828  ls
+  829  cat nohup.out 
+  830  top
+  831  cd jonti_share/neos/kc2_verif/wb_dma/
+  832  ls
+  833  python3 ../../process_bench_dff.py wbdma_32bit_1lfsr_syn_comb_v2_break.bench 
+  834  python3 ../../process_bench_dff.py wbdma_unlocked_syn_comb_v2_break.bench 
+  835  ../../bin/neos -d int --kc_sweep=2 wbdma_unlocked_syn_comb_v2_break_dff_orig.bench wbdma_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  836  top
+  837  ls
+  838  ../../bin/neos -d int --kc_sweep=2 wbdma_unlocked_syn_comb_v2_break_dff_orig.bench wbdma_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  839  top
+  840  kill 448798
+  841  cd ../
+  842  ls
+  843  cd aes_bracket/
+  844  ls
+  845  cat nohup.out 
+  846  cd ../
+  847  ls
+  848  cd wb_dma/
+  849  ls
+  850  ../../bin/neos -d int --kc_sweep=2 wbdma_unlocked_syn_comb_v2_break_dff_orig.bench wbdma_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100
+  851  cd ../aes_bracket/
+  852  ../../bin/neos -d int --kc_sweep=2 aes_unlocked_syn_comb_v2_break_dff_orig.bench aes_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100
+  853  history
+  854  ../../bin/neos -d int --kc_sweep=2 aes_unlocked_syn_comb_v2_break_dff_orig.bench aes_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  855  cd ../wb_dma/
+  856  ../../bin/neos -d int --kc_sweep=2 wbdma_unlocked_syn_comb_v2_break_dff_orig.bench wbdma_32bit_1lfsr_syn_comb_v2_break_dff_orig.bench 100 --mo=60000
+  857  ls
+  858  cd ../
+  859  ls
+  860  mkdir sha3_low
+  861  ls
+  862  cd sha3_low/
+  863  ls
+  864  mkdir unlocked
+  865  cd unlocked/
+  866  ls
+  867  clear
+  868  ls
+  869  cd ../../
+  870  ls
+  871  cd sha3_low/
+  872  ls
+  873  python ../../process_bench_dff.py sha3_unlocked.bench 
+  874  python3 ../../process_bench_dff.py sha3_unlocked.bench 
+  875  python3 ../../process_bench_dff.py sha3_32bit1lfsr.bench 
+  876  ls
+  877  clear
+  878  ls
+  879  ../../bin/neos -d int kc_sweep=2 sha3_unlocked_dff_orig.bench sha3_32bit1lfsr_dff_orig.bench 100 --mo=60000
+  880  ../../bin/neos -d int --kc_sweep=2 sha3_unlocked_dff_orig.bench sha3_32bit1lfsr_dff_orig.bench 100 --mo=60000
+  881  jonti_share/
+  882  ls
+  883  cd jonti_share/
+  884  ls
+  885  cd neos/
+  886  ls
+  887  ./bin/neos -help
+  888  ls
+  889  pwd
+  890  python3 generate_lfsr.py 
+  891  ls
+  892  cd neos/
+  893  ls
+  894  cd bench/
+  895  ls
+  896  cd ../
+  897  ls
+  898  cd neos/
+  899  ls
+  900  cd ../
+  901  ls
+  902  cd jonti_share/
+  903  ls
+  904  cd neos/
+  905  ls
+  906  bin/neos 
+  907  bin/neos -h
+  908  bin/neos -d -h
+  909  ls
+  910  cd jonti_share/
+  911  ls
+  912  cd neos/
+  913  ls
+  914  pwd
+  915  df -h .
+  916  top
+  917  ls -altr
+  918  pwd
+  919  cd jonti_share/
+  920  ls
+  921  cd neos/
+  922  ls
+  923  df -h .
+  924  du -h .
+  925  cd ../
+  926  ls
+  927  cd ../
+  928  l
+  929  pwd
+  930  top
+  931  ls -altr
+  932  pdw
+  933  pwd
+  934  top
+  935  pwd
+  936  cd ../
+  937  ls
+  938  cd davidp/
+  939  l
+  940  cd CEP-3.41/
+  941  ls
+  942  ls -altr
+  943  df -h .
+  944  ls -altr
+  945  cd hdl_cores/
+  946  ls -altr
+  947  cd freedom/
+  948  ls
+  949  cd rocket-chip/
+  950  ls
+  951  cd src/
+  952  ls
+  953  cd main/
+  954  ls
+  955  cd ../../ls
+  956  cd ../..
+  957  ls
+  958  cd macros/
+  959  ls
+  960  cd src/
+  961  l
+  962  ls
+  963  cd main/`
+  964  ls
+  965  ls
+  966  cd main/
+  967  ls
+  968  cd scala/
+  969  cd ../../../../../
+  970  ls
+  971  vi Makefile.vc707 
+  972  cd ../../
+  973  ls
+  974  cd hdl_cores/
+  975  ls
+  976  cd freedom/
+  977  ls
+  978  cd BUI
+  979  cd builds/
+  980  ls
+  981  cd vc707-u500devkit/
+  982  ls
+  983  ls | grep *.v
+  984  vi sifive.freedom.unleashed.DevKitU500FPGADesign_WithDevKit50MHz.v\
+  985  pwd
+  986  cd ../
+  987  ls
+  988  pwd
+  989  df -h .
+  990  pwd
+  991  sudo apt-get update
+  992  sudo smbpasswd -a jonti
+  993  sudo nano /etc/samba/smb.conf
+  994  vi nano /etc/samba/smb.conf
+  995  sudo vi /etc/samba/smb.conf
+  996  cd jonti/
+  997  ls
+  998  cd ../
+  999  ls
+ 1000  sudo service smbd restart
+ 1001  testparm
+ 1002  ipconfig
+ 1003  ifconfig
+ 1004  smbclient
+ 1005  smbclient -L
+ 1006  smbclient //10.148.54.119/ -U jonti
+ 1007  smbclient //10.148.54.119/ 
+ 1008  smbclient -L //10.148.54.119/ 
+ 1009  smbclient -L //10.148.54.119/jonti_share
+ 1010  ifconfig
+ 1011  smbclient //10.148.54.119/ -U jonti
+ 1012  smbclient //10.148.54.119/ 
+ 1013  smbclient -L //10.148.54.119/ 
+ 1014  pwd
+ 1015  ls
+ 1016  ls -altr
+ 1017  pwd
+ 1018  cd jonti_share/
+ 1019  ls
+ 1020  ls neos/
+ 1021  ls
+ 1022  pwd
+ 1023  sudo su 
+ 1024  pwd
+ 1025  sudo su
+ 1026  exit
+ 1027  ls
+ 1028  du -sh 
+ 1029  du -sh .
+ 1030  du -h .
+ 1031  ls
+ 1032  du -sh .
+ 1033  ls -altr
+ 1034  cd jonti_share/
+ 1035  ls
+ 1036  pwd
+ 1037  ls
+ 1038  history 
+ 1039  ls -altr
+ 1040  cd neos/
+ 1041  ls
+ 1042  cd ../
+ 1043  ls
+ 1044  cd ../
+ 1045  ls
+ 1046  cd davidp/
+ 1047  ls
+ 1048  du -sh .
+ 1049  ls
+ 1050  cd ../
+ 1051  ls
+ 1052  cd ../
+ 1053  ls
+ 1054  cd davidp/
+ 1055  ls
+ 1056  du -sh .
+ 1057  sudo su
+ 1058  df -h
+ 1059  ls
+ 1060  pwd
+ 1061  ls
+ 1062  cd jonti_share/
+ 1063  ls
+ 1064  cd neos/
+ 1065  ls
+ 1066  history
+ 1067  ls
+ 1068  cd jonti_share/
+ 1069  ls
+ 1070  cd neos/
+ 1071  ls
+ 1072  history 
+ 1073  ls
+ 1074  history > history.log

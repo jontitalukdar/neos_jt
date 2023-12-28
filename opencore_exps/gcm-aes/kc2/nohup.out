@@ -1,0 +1,1 @@
+neos: ./src/base/circuit.h:924: ckt::id ckt::circuit::find_wcheck(const string&) const: Assertion `0' failed.
